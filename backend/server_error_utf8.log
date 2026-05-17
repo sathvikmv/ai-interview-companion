@@ -1,0 +1,34 @@
+﻿.\venv\Scripts\python.exe : 
+INFO:     Started server 
+process [24488]
+At line:1 char:1
++ .\venv\Scripts\python.exe 
+main.py > server_error.log 
+2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~
+    + CategoryInfo           
+   : NotSpecified: (INFO:    
+     Started server proces   
+ s [24488]:String) [], Re    
+moteException
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+INFO:     Waiting for 
+application startup.
+INFO:     Application 
+startup complete.
+ERROR:    [Errno 10048] 
+error while attempting to 
+bind on address ('0.0.0.0', 
+8000): [winerror 10048] only 
+one usage of each socket 
+address (protocol/network 
+address/port) is normally 
+permitted
+INFO:     Waiting for 
+application shutdown.
+INFO:     Application 
+shutdown complete.

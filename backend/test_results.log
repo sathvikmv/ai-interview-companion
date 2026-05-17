@@ -1,0 +1,16 @@
+Testing /api/health...
+Health: 200, {'status': 'ok', 'timestamp': '2026-03-05T13:32:02.586066', 'version': '2.0.0'}
+
+Testing /api/upload-resume...
+Uploaded: Candidate ID 54ace42b-efa7-4726-af48-ea62367640a2
+
+Testing /api/interview/start...
+Started: Session ID b157d142-201f-4892-877b-894913123d87
+First Question: Welcome! I'm your AI interviewer today. Let's start with you telling me about yourself — your background, current role, and what excites you most about technology.
+
+Testing /api/interview/answer...
+Evaluation: Response was somewhat brief. Elaborate more on the approach, challenges, and outcomes.
+Next Question: How does Python's GIL affect multi-threaded programs? When would you use multiprocessing instead?
+
+Testing /api/candidates...
+Candidates Count: 20

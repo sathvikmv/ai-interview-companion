@@ -1,0 +1,26 @@
+﻿
+> frontend@0.1.0 dev
+> next dev
+
+npm.cmd :  ΓÜá Port 3000 is 
+in use, trying 3001 instead.
+At line:1 char:1
++ npm.cmd run dev > 
+server_run.log 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: ( ΓÜá Po  
+  rt 3000 ...g 3001 instea   
+ d.:String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+ ΓÜá Port 3001 is in use, 
+trying 3002 instead.
+  Γû▓ Next.js 14.2.35
+  - Local:        http://localhost:3002
+
+ Γ£ô Starting...
+ Γ£ô Ready in 3.7s
